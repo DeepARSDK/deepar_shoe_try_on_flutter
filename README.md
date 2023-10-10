@@ -24,7 +24,7 @@ In the `pubspec.yaml` of your flutter project, add the following dependency:
 ```yaml
 dependencies:
   ...
-  deepar_shoe_try_on_flutter: ^1.0.0-beta
+  deepar_shoe_try_on_flutter: ^1.0.1-beta
 ```
 
 Import it:

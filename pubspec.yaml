@@ -1,6 +1,6 @@
 name: deepar_shoe_try_on_flutter
 description: The official DeepAR Shoe Try-On plugin for Flutter.
-version: 1.0.0-beta
+version: 1.0.1-beta
 homepage: https://www.deepar.ai/
 repository: https://github.com/DeepARSDK/deepar_shoe_try_on_flutter
 
@@ -26,6 +26,12 @@ dev_dependencies:
 
 # The following section is specific to Flutter packages.
 flutter:
+  plugin:
+    platforms:
+      android:
+        default_package: deepar_shoe_try_on_flutter
+      ios:
+        default_package: deepar_shoe_try_on_flutter
 
   # To add assets to your package, add an assets section, like this:
   # assets:
@@ -57,3 +63,13 @@ flutter:
   #
   # For details regarding fonts in packages, see
   # https://flutter.dev/custom-fonts/#from-packages
+
+topics:
+  - AR
+  - DeepAR
+  - DeepAR SDK
+  - Shoe Try-On
+  - AR Shoe Try-On
+  - Shoes
+  - AR Shoes
+  - AR Sneakers
